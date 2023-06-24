@@ -176,7 +176,7 @@ img {
     border-radius:8px;
     background-color: var(--bg-gray-color);
     margin: 0px 8px 40px 12px;
-    width: 300px;
+    
 }
 .form-card form{
     display: flex;
@@ -185,18 +185,18 @@ img {
 
 }
 .form-card input {
-    background-color: #f0f0f0;
     border-radius: 4px;
     padding:20px ;
 }
 .input-text input {
     height: 50px;
     width: 280px;
+    background-color: #fff;
   
 }
 .input-text input::placeholder {
     color: var(--text-gray-color);
-    background-color: var(--text-white-color);
+    background-color: #fff;
     font-size: 16px;
 }
 #submit {
